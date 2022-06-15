@@ -133,3 +133,31 @@ body {
   margin-top: 40px;
   margin-left: calc(50% + 15px);
 }
+
+.media-content {
+  text-align: center;
+}
+
+.media-content__title {
+  margin-bottom: 27px;
+}
+
+.media-content__header {
+  margin-bottom: 30px;
+}
+
+.media-content__main {
+  margin-bottom: -184px;
+}
+
+.video {
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
+
+
+
+
+
+
+
+
