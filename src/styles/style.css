@@ -1,7 +1,6 @@
 /** CSS STYLE **/
 .hello {
   display: block;
-
   color: #fff;
 }
 
@@ -43,100 +42,94 @@
 body {
   font-size: 16px;
   line-height: 1.6em;
-  color: #2A2626;
   font-family: 'Open Sans', sans-serif;
+  color: #2A2626;
 }
 
 .accent {
   color: var(--color-main);
 }
 
-h1,
-h2,
-h3 {
+.h1,
+.h2,
+.h3 {
   line-height: 1.2em;
   font-family: 'Neucha', sans-serif;
 }
 
-h1 {
+.h1 {
   font-size: 72px;
   font-weight: 400;
 }
 
-h2 {
+.h2 {
   font-size: 60px;
 }
 
-h3 {
+.h3 {
   font-size: 34px;
 }
 
 .btn {
   display: flex;
+  align-items: center;
   padding: 12px 24px;
-  font-weight: bold;
-  color: var(--color-white);
-  background-color: var(--color-main);
   width: 148px;
   height: 49px;
   text-decoration: none;
   text-transform: uppercase;
-  align-items: center;
-}
-
-.section__btn {
-  margin-top: 40px;
-  margin-left: calc(50% + 15px);
+  font-weight: bold;
+  color: var(--color-white);
+  background-color: var(--color-main);
 }
 
 .container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
   max-width: 1110px;
   margin: 0 auto;
   padding-top: 100px;
   padding-bottom: 100px;
-  position: relative;
 }
 
 .main {
   position: relative;
   background-color: var(--color-light);
-  
 }
 
 .main::before {
   content: "";
+  position: absolute;
   width: 100%;
   height: 100%;
-  position: absolute;
-
   background-image: url('../images/background.png');
-
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.1;
 }
 
-.section__title {
+.main__title {
   margin-bottom: 195px;
 }
 
-.section__image {
+.main__image {
   position: absolute;
   height: 525px;
   top: 55px;
   right: -270px;
 }
 
-.section__text {
+.main__text {
   padding-top: 10px;
 }
 
-.container__main {
-  display: flex;
-  flex-direction: column;
-}
-
-.section__main {
+.main__main {
   column-count: 2;
   column-gap: 30px;
+}
+
+.main__btn {
+  margin-top: 40px;
+  margin-left: calc(50% + 15px);
 }
