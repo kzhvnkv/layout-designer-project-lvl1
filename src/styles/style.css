@@ -303,3 +303,7 @@ body {
 .effects__caption--dark {
   color: var(--color-white-opacity);
 }
+
+.cols__margin {
+  margin-bottom: 16px;
+}
