@@ -106,6 +106,11 @@ body {
   font-weight: 700;
 }
 
+.caption--dark {
+  background-color: var(--color-white);
+  color: var(--color-brown);
+}
+
 .cols {
   column-count: 2;
   column-gap: 30px;
@@ -250,6 +255,7 @@ body {
 }
 
 .effects {
+  position: relative;
   background-color: var(--color-light);
 }
 
@@ -287,4 +293,13 @@ body {
 
 .effects__title {
   margin-bottom: 30px;
+}
+
+.effects--dark {
+  background-color: var(--color-brown);
+  color: var(--color-white);
+}
+
+.effects__caption--dark {
+  color: var(--color-white-opacity);
 }
