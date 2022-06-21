@@ -132,6 +132,10 @@ body {
   background-color: var(--color-light);
 }
 
+.section {
+  position: relative;
+}
+
 .section::before {
   content: "";
   position: absolute;
