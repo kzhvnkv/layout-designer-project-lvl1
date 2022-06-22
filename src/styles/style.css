@@ -55,6 +55,11 @@ body {
   color: var(--color-main);
 }
 
+h2 {
+  color: var(--color-main);
+  font-family: 'Neucha', sans-serif;
+}
+
 .h1,
 .h2,
 .h3 {
@@ -272,6 +277,10 @@ body {
   margin-right: 30px;
 }
 
+.img-block {
+  vertical-align: middle;
+}
+
 .section__image {
   display: block;
   box-shadow: 0 16px 32px rgba(0, 0, 0, 0.15);
@@ -302,6 +311,10 @@ body {
 
 .effects--dark {
   background-color: var(--color-brown);
+  color: var(--color-white);
+}
+
+.effects--dark h2 {
   color: var(--color-white);
 }
 
