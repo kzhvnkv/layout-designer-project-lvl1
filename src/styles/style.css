@@ -55,10 +55,10 @@ body {
   color: var(--color-main);
 }
 
-h2 {
+/* h2 {
   color: var(--color-main);
   font-family: 'Neucha', sans-serif;
-}
+} */
 
 .h1,
 .h2,
@@ -185,7 +185,7 @@ h2 {
 }
 
 .media-content__title {
-  margin-bottom: 27px;
+  margin-bottom: 30px;
 }
 
 .media-content__header {
