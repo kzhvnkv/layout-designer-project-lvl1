@@ -55,10 +55,18 @@ body {
   color: var(--color-main);
 }
 
-/* h2 {
+h2 {
   color: var(--color-main);
   font-family: 'Neucha', sans-serif;
-} */
+  font-size: 60px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+ul {
+  padding-left: 40px;
+  padding-bottom: 20px;
+}
 
 .h1,
 .h2,
@@ -66,6 +74,11 @@ body {
   line-height: 1.2em;
   font-family: 'Neucha', sans-serif;
   font-weight: 400;
+  color: var(--color-dark);
+}
+
+.h3--dark {
+  color: var(--color-white);
 }
 
 .h1 {
@@ -214,6 +227,7 @@ body {
 }
 
 .menu__items {
+  padding: 0;
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
@@ -318,7 +332,7 @@ body {
   color: var(--color-white);
 }
 
-.effects--dark h2 {
+.effects--dark .h2 {
   color: var(--color-white);
 }
 
