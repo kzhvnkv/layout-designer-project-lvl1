@@ -231,7 +231,7 @@ body {
 }
 
 .item {
-  background-color: var(--color-white);
+  background-color: var(--color-light);
 }
 
 .menu__item:nth-child(3n) {
