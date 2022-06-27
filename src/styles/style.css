@@ -184,6 +184,10 @@ body {
   z-index: 20;
 }
 
+.media-content__container {
+  padding-bottom: 89px;
+}
+
 .media-content__title {
   margin-bottom: 30px;
 }
@@ -205,7 +209,7 @@ body {
 }
 
 .navigation__menu {
-  margin-top: 82px;
+  margin-top: 93px;
   margin-bottom: -20px;
 }
 
