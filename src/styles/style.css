@@ -120,6 +120,7 @@ ul {
   background-color: var(--color-brown);
   color: var(--color-white);
   font-size: 14px;
+  line-height: 1;
   text-transform: uppercase;
   font-weight: 700;
 }
